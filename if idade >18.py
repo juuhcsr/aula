@@ -5,7 +5,7 @@ print(msg)
 '''
 idade = input('qual sua idade?: ')
 if not idade.isnumeric():
-    print('você precisa digitar apenas números')
+    print('você precisa digitar apenas números inteiros')
 else:
     idade=int(idade)
     e_de_maior = (idade >= 18)
