@@ -8,6 +8,6 @@ if not idade.isnumeric():
     print('você precisa digitar apenas números inteiros')
 else:
     idade=int(idade)
-    e_de_maior = (idade >= 18)
+    e_de_maior = (idade >= 25)
     msg = 'pode acessar' if e_de_maior else 'não pode acessar.'
     print(msg)
